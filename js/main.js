@@ -7,7 +7,7 @@ const getPage = () => {
     btn.addEventListener('click', () => {
         if(inp.value != "") {
             console.log('click');
-            window.open('index.html');
+            window.open('brands.html');
         } else {
                 alert('Введите данные!');
         }
