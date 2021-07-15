@@ -1,14 +1,13 @@
 <!doctype html>
-<html lang="ru">
 <meta charset="utf-8">
+<html lang="ru">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Test</title> 
 
 <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 
-<link rel="preconnect" href="<?=$item?>" crossorigin>
-<link rel="dns-prefetch" href="<?=$item?>">
+<link href="/assets/style.css?<?=date('his')?>" rel="stylesheet" />
 
 
 <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
@@ -18,24 +17,24 @@
 
 <div class="root">
 
-	<div class="hp1">
+	<div class="hp1 first-container">
         <h2 class="header-text">Проверим качество проверим качество проверим качество</h2>
 		<div class="hp2 cwidth">
-            <div class="flex-item">
-                <div class="flex-icon"><p class="flex-icon__text">1</p></div>
-                <div class="flex-text">На допечатной подготовке макета</div>
+            <div class="first-container__item">
+                <div class="first-container__icon"><p class="flex-icon__text">1</p></div>
+                <div class="first-container__text">На допечатной подготовке макета</div>
             </div>
-            <div class="flex-item">
-                <div class="flex-icon"><p class="flex-icon__text">2</p></div>
-                <div class="flex-text">Во время печати</div>
+            <div class="first-container__item">
+                <div class="first-container__icon"><p class="flex-icon__text">2</p></div>
+                <div class="first-container__text">Во время печати</div>
             </div>
-            <div class="flex-item">
-                <div class="flex-icon"><p class="flex-icon__text">3</p></div>
-                <div class="flex-text">При нарезке и перемотке</div>
+            <div class="first-container__item">
+                <div class="first-container__icon"><p class="flex-icon__text">3</p></div>
+                <div class="first-container__text">При нарезке и перемотке</div>
             </div>
-            <div class="flex-item">
-                <div class="flex-icon"><p class="flex-icon__text">4</p></div>
-                <div class="flex-text">Во время упаковки тиража</div>
+            <div class="first-container__item">
+                <div class="first-container__icon"><p class="flex-icon__text">4</p></div>
+                <div class="first-container__text">Во время упаковки тиража</div>
             </div>
 		</div>
 	</div>
@@ -95,21 +94,23 @@
 	</div>
 
     <div class="hp1">
-		<div class="hp2 cwidth">
-            <div class="flex-item">
-                <div class="flex-text">Каталог</div>
+		<div class="hp2 third-container">
+            <div class="menu-wrapper">
+                <div class="third-container__item">
+                    <div class="third-container__text">Каталог</div>
+                </div>
+                <div class="third-container__item">
+                    <div class="third-container__text">Флексопечать</div>
+                </div>
+                <div class="third-container__item">
+                    <div class="third-container__text">Оплата и доставка</div>
+                </div>
+                <div class="third-container__item">
+                    <div class="third-container__text">Контакты</div>
+                </div>
             </div>
-            <div class="flex-item">
-                <div class="flex-text">Флексопечать</div>
-            </div>
-            <div class="flex-item">
-                <div class="flex-text">Оплата и доставка</div>
-            </div>
-            <div class="flex-item">
-                <div class="flex-text">Контакты</div>
-            </div>
-            <div class="flex-item">
-                <div class="flex-text flex-text--modify">Заказать рассчёт</div>
+            <div class="third-container__item">
+                <div class="third-container__text third-container__text--modify">Заказать рассчёт</div>
             </div>
 		</div>
 	</div>
