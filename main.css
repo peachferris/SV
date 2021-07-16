@@ -45,6 +45,7 @@ body{
 
 .header-text {
     text-align: center;
+    font-size: 1rem;
 }
 
 
@@ -102,6 +103,7 @@ body{
 
 .third-container__item {
     margin-left: 1rem;
+    margin-top: 15px;
 }
 
 
@@ -147,17 +149,27 @@ body{
         font-size: 1rem;
     }
 
-    .flex-item {
-        display: block;
+    .first-container__item {
+        flex-direction: column;
         text-align: center;
-        margin-left: 0;
+        margin: 0 ;
     }
 
-    .flex-icon {
-        display: block;
+    .menu-wrapper {
+        flex-direction: column;
+    }
+    .third-container {
+        flex-direction: column;
+        text-align: center;
+        margin-top: -30px;
+    }
+
+
+    .first-container__icon {
+        flex-direction: column;
         margin: 0 auto;
     }
-    .flex-text {
+    .first-container__text {
         margin-bottom: 1rem;
         margin-top: 0.5rem;
         margin-left: 0;
